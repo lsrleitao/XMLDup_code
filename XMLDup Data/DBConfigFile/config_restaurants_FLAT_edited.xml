@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<restaurant formula="MEDIA" idfType="0" mainMemory="1" threshold="0.5">
+	<name attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<addr attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<city attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<type attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<phone attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<code attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<latitude attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<longitude attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<latitude2 attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<longitude2 attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1"/>
+</restaurant>

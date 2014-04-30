@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<country blocking="false" blockingAlgo="Canopy" blockingParams="0.58428189,0.36397694,5" formula="MEDIA" idfType="0" key="name#38" mainMemory="1" threshold="0.5" uniquePF="1">
+	<government attributes="government" defaultProb="0.5" onlyAttributes="true" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<car_code attributes="car_code" defaultProb="0.5" onlyAttributes="true" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<name attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.16209473" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<encompassed attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<continent attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.20747836" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	</encompassed>
+	<cities attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<city attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.16754241" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+	</cities>	
+	<provinces attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<province attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+			<name attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.15678029" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+			<cities attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+				<city attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.1644257" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+			</cities>
+		</province>
+	</provinces>
+	<languages attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<language attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.19892123" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+	</languages>
+	<religions attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<religion attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.19219315" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+	</religions>
+	<ethnicgroups attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<ethnicgroup attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.16218315" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+	</ethnicgroups>	
+</country>

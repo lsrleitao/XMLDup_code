@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<country threshold="0.5" formula="MEDIA" idfType="0" mainMemory ="1">
+	<name simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<government simCut="0" attributes="government" onlyAttributes="true" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<car_code simCut="0" attributes="car_code" onlyAttributes="true" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<continent simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<city simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<name2 simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<city2 simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<language simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<religion simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<ethnicgroup simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+</country>

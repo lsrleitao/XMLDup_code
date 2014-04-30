@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<publication blocking="false" blockingAlgo="Canopy" blockingParams="0.58417726,0.39736408,5" formula="MEDIA" idfType="0" key="author#302,volume#9" mainMemory="1" threshold="0.3" uniquePF="1">
+	<title attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.0" simCut="0.7" simMeasure="levenstein" useFlag="1"/>
+	<author attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.20475066" simCut="0.7" simMeasure="levenstein" useFlag="1"/>
+	<venue attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<venue attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">	
+			<vol attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+			<date attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+			<name attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.8209661" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		</venue>
+	</venue>
+</publication>

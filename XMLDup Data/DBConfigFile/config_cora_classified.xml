@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publication formula="MEDIA" idfType="0" mainMemory="1" threshold="0.3" blocking="false" blockingAlgo="Canopy" key="name#[0-32],vol#[0-1],date#[0-3]" blockingParams="1,0.9,3" uniquePF="1">
+  <name attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" pf="1" simMeasure="levenstein" useFlag="1"/> 
+  <vol attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" pf="1" simMeasure="levenstein" useFlag="1"/>
+  <date attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0" pf="1" simMeasure="levenstein" useFlag="1"/>
+  <author attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0.7" pf="1" simMeasure="levenstein" useFlag="1"/>
+  <title attributes="" defaultProb="0.5" onlyAttributes="false" simCut="0.7" pf="1" simMeasure="levenstein" useFlag="1"/>
+</publication>

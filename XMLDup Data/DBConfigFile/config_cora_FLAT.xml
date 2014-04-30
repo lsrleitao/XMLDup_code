@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<publication threshold="0.5" formula="MEDIA" idfType="0" mainMemory ="1">
+	<author simCut="0" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<title simCut="0" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>	
+	<name simCut="0" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<vol simCut="0" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<date simCut="0" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+</publication>

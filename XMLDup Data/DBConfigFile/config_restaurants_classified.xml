@@ -1,0 +1,13 @@
+<restaurant blocking="true" blockingAlgo="Canopy" blockingParams="0.60828665,0.44738708,5" formula="MEDIA" idfType="0" key="addr#[0-450],name#[0-370]" mainMemory="1" threshold="0.5" uniquePF="0.60090072">
+  <name attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <addr attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <phone attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <group1 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="0">
+    <city attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <latitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <latitude2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <longitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <longitude2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <type attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  </group1>
+</restaurant>	

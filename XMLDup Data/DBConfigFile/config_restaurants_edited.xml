@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!-- <restaurant blocking="true" blockingAlgo="Canopy" blockingParams="0.9,0.3,3" formula="MEDIA" idfType="0" key="phone#[0-11],type#[0-29],city#[0-16],name#[0-44],addr#[0-53]" mainMemory="1" threshold="0.5" uniquePF="1"> -->
+<restaurant blocking="false" blockingAlgo="Canopy" blockingParams="0.9,0.3,3" formula="MEDIA" idfType="0" key="phone#[0-11],type#[0-29],city#[0-16],name#[0-44],addr#[0-53]" mainMemory="1" threshold="0.5" uniquePF="1"> 
+  <phone attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <group1 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+    <name attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <group2 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+	    <addr attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	    <type attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	    <longitude2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	    <group3 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		    <latitude2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		    <latitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		    <group4 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+			    <longitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		      	<city attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		    </group4>
+      	</group3>
+    </group2>
+  </group1>
+</restaurant>

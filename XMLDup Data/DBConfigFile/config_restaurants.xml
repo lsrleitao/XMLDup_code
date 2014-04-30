@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<restaurant blocking="true" blockingAlgo="Canopy" blockingParams="0.6,0.4,5" formula="MEDIA" idfType="0" key="addr#[0-8],name#[3-3;5-5],phone#[0-0;7-8]" mainMemory="1" threshold="0.5" uniquePF="0.6">
+	<phone attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63792104" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<code attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<type attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<city attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<name attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.20654628" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<addr attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.4339608" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<geocode attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<boundingBox attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+			<southWest attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+				<latitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.6125988" simCut="0" simMeasure="levenstein" useFlag="1"/>
+				<longitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.6051117" simCut="0" simMeasure="levenstein" useFlag="1"/>
+			</southWest>
+			<northEast attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+				<latitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.63672614" simCut="0" simMeasure="levenstein" useFlag="1"/>
+				<longitude attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.5721063" simCut="0" simMeasure="levenstein" useFlag="1"/>
+			</northEast>
+		</boundingBox>
+	</geocode>
+</restaurant>

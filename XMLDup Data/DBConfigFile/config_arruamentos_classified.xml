@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<arruamento blocking="false" blockingAlgo="Canopy" blockingParams="0.9,0.3,3" formula="MEDIA" idfType="0" key="designacao_arruamento#[0-10],codigo_localidade#[0-10]" mainMemory="1" threshold="0.94" uniquePF="1" useFlag="1">
+	<designacao_arruamento attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="custom" useFlag="1"/>
+	<group1 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<codigo_localidade attributes="" defaultProb="1" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+		<group2 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+			<localidade attributes="" defaultProb="1" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+			<group3 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+				<codigo_freguesia attributes="" defaultProb="1" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+				<group4 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+					<freguesia attributes="" defaultProb="1" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+					<group5 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+						<codigo_concelho attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="levenstein" useFlag="1"/>
+						<group6 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+							<concelho attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="levenstein" useFlag="1"/>
+							<group7 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+								<codigo_distrito attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="levenstein" useFlag="1"/>
+								<group8 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+									<distrito attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="levenstein" useFlag="1"/>
+									<group9 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">					
+										<indicativo attributes="" defaultProb="1" onlyAttributes="false" pf="1" simCut="0" simMeasure="custom2" useFlag="1"/>
+										<titulo attributes="" defaultProb="1" onlyAttributes="false" pf="0.5" simCut="0" simMeasure="levenstein" useFlag="1"/>
+									</group9>
+								</group8>
+							</group7>
+						</group6>
+					</group5>
+				</group4>
+			</group3>
+		</group2>
+	</group1>
+</arruamento>

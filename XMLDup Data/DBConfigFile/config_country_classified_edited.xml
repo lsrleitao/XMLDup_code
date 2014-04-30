@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<country blocking="true" blockingAlgo="Canopy" blockingParams="0.58,0.36,5" formula="MEDIA" idfType="0" key="name#[0-0;1-1;2-2;3-3;4-4;5-5;6-6;7-7],continent#[0-0;1-1;2-2;3-3;4-4;5-5],city#[0-0;1-1;2-2;4-4;5-5;6-6]" mainMemory="1" threshold="0.5" uniquePF="0.6">
+  <city attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+  <city2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+  <ethnicgroup attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="levenstein" useFlag="1"/>
+  <language attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="qGrams" useFlag="1"/>
+  <name2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="jaccard" useFlag="1"/>
+  <name attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="qGrams" useFlag="1"/>
+  <group1 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+    <continent attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <religion attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0.6" simMeasure="jaroWinkler" useFlag="1"/>
+  </group1>
+</country>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Registro formula="MEDIA" idfType="0" mainMemory="1">
+	<numero defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+	<Person defaultProb="0.5" formula="MEDIA" useFlag="1">
+		<Name defaultProb="0.5" formula="MEDIA" useFlag="1">
+			<giveName defaultProb="0.5" useFlag="1" simMeasure="soundex"/>
+			<surName defaultProb="0.5" useFlag="1" simMeasure="qGrams"/>
+		</Name>
+		<date_of_birth defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+		<phonenum defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+		<soc_sec_id defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+	</Person>
+	<Address defaultProb="0.5" formula="MEDIA" useFlag="1">
+		<details defaultProb="0.5" formula="MEDIA" useFlag="1">
+			<streetnumber defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+			<address_1 defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+			<address_2 defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+		</details>
+		<suburb defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+		<postcode defaultProb="0.5" useFlag="1" simMeasure="jaccard"/>
+	</Address>
+</Registro>

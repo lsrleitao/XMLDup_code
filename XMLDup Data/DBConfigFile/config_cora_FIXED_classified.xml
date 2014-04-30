@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<NEWREFERENCE formula="MEDIA" idfType="0" mainMemory="1" threshold="0.5" blocking="true" blockingAlgo="Canopy" key="title#[10-10;30-30],author#[3-3;5-5;7-7]" blockingParams="0.52,0.38,5" uniquePF="0.57">
+	<title attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.0" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<author attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.20475066" simCut="0" simMeasure="levenstein" useFlag="1"/>	
+	<volume attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<date attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<journal attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.8209661" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<pages attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.8209661" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<publisher attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<address attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<note attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<booktitle attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<editor attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<booktile attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<tech attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<institution attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<Pages attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<year attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<type attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<month attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+</NEWREFERENCE>

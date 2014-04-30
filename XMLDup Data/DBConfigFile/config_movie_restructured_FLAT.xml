@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<movie threshold="0.3" formula="MEDIA" idfType="0" mainMemory="1">
+	<title simCut="0.6" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<year simCut="0.8" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<title2 simCut="0.6" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<info simCut="0" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>	
+	<genre simCut="0" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<name simCut="0.6" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+</movie>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<disc blocking="false" blockingAlgo="Canopy" blockingParams="0.65559472,0.40633614,5" formula="MEDIA" idfType="0" key="artist#38" mainMemory="1" threshold="0.5" uniquePF="1" useFlag="1">
+	<did attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<category attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<year attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<genre attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<artist attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.23868407" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<dtitle attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.2968962" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<cdextra attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<tracks attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<title attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.26043102" simCut="0.7" simMeasure="levenstein" useFlag="1"/>
+	</tracks>
+</disc>

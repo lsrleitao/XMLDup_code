@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<disc threshold="0.5" formula="MEDIA" idfType="0" mainMemory="1">
+	<did simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<artist simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<dtitle simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+	<category simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<genre simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<year simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<cdextra simCut="0" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="0" simMeasure="levenstein"/>
+	<title simCut="0.7" attributes="" onlyAttributes="false" defaultProb="0.5" useFlag="1" simMeasure="levenstein"/>
+</disc>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--<person formula="MEDIA" idfType="0" mainMemory="1" threshold="0.52" blocking="true" blockingAlgo="Canopy" key="address_1#[0-24],address_2#[0-34],date_of_birth#[0-8],given_name#[0-11],phone_number#[0-10],postcode#[0-4],soc_sec_id#[0-7],suburb#[0-18],surname#[0-15]" blockingParams="1,0.9,3" uniquePF="0">-->
+<person blocking="true" blockingAlgo="Canopy" blockingParams="0.6,0.38,5" formula="MEDIA" idfType="0" key="phone_number#[8-8],soc_sec_id#[2-2;4-4;5-5;6-6]" mainMemory="1" threshold="0.52" uniquePF="0.6">  
+  <address_1 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <address_2 attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <date_of_birth attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <given_name attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <phone_number attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <postcode attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <soc_sec_id attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <suburb attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <surname attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+  <group1 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+    <street_number attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    <group2 attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+      <age attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+      <state attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+    </group2>
+  </group1>
+</person>

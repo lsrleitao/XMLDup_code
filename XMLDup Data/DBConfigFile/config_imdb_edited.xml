@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<movie blocking="false" blockingAlgo="Canopy" blockingParams="0.58906384,0.39732259,5" formula="MEDIA" key="title#76" mainMemory="1" threshold="0.5" uniquePF="1">
+	<title attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.21073374" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<imdb_key attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<year attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<rating attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<genre attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<keyword attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>		
+	<credits attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<director attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.28250763" simCut="0" simMeasure="levenstein" useFlag="1"/>	
+		<author attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.2718427" simCut="0" simMeasure="levenstein" useFlag="1"/>	
+		<cast attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+			<cast_member attributes="" defaultProb="0.5" onlyAttributes="false" pf="0.27491754" simCut="0.7" simMeasure="levenstein" useFlag="1"/>
+		</cast>		
+	</credits>
+	<runtimes attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<runtime attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	</runtimes>
+	<plot attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	<country attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	<languages attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<language attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	</languages>
+	<certifications attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="1">
+		<certification attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="1"/>
+	</certifications>
+	<user_comment attributes="" defaultProb="0.5" formula="MEDIA" onlyAttributes="false" simCut="0" simMeasure="levenstein" useFlag="0">
+		<p attributes="" defaultProb="0.5" onlyAttributes="false" pf="1" simCut="0" simMeasure="levenstein" useFlag="0"/>
+	</user_comment>
+</movie>
